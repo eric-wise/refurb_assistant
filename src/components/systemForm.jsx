@@ -1,7 +1,11 @@
 import React from "react";
 
-function systemForm(props) {
-  return <div></div>;
+function systemForm() {
+  return (
+    <div>
+      <h1>System Form</h1>
+    </div>
+  );
 }
 
 export default systemForm;

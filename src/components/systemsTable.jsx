@@ -1,6 +1,6 @@
 import React from "react";
 
-function systemsTable(props) {
+function systemsTable() {
   return (
     <div>
       <h1>Systems Table</h1>

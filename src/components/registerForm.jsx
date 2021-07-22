@@ -1,6 +1,6 @@
 import React from "react";
 
-function registerForm(props) {
+function registerForm() {
   return (
     <div>
       <h1>Register Form</h1>

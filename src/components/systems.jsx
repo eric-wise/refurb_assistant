@@ -1,6 +1,6 @@
 import React from "react";
 
-function systems(props) {
+function systems() {
   return (
     <div>
       <h1>Systems</h1>
