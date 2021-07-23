@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Switch, Route, Redirect, BrowserRouter } from "react-router-dom";
 import NavBar from "./components/navBar";
 import Systems from "./components/systems";
