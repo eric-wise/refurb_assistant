@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { getSystems } from "../services/dummieSystem";
 
-function systems() {
+function Systems() {
+  const [systems, setSystems] = useState([]);
+
+  useEffect(() => {
+    setSystems(getSystems());
+    console.log(systems);
+  });
+
   return (
     <div>
       <h1>Systems</h1>
@@ -8,4 +16,4 @@ function systems() {
   );
 }
 
-export default systems;
+export default Systems;
